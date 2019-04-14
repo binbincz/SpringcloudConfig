@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: testService
+  datasource:
+    url: jdbc:mysql://localhost:3306/mall
+    username: root
+    password: 11
+    driver-class-name: com.mysql.cj.jdbc.Driver
+feign:
+  hystrix:
+    enabled: true
